@@ -1,4 +1,4 @@
-# End-to-end-Medical-Chatbot-Generative-AI
+# Medical-Chatbot
 
 
 # How to run?
@@ -9,14 +9,14 @@ Clone the repository
 ```bash
 Project repo: https://github.com/
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a environment after opening the repository
 
 ```bash
-conda create -n medibot python=3.10 -y
+python3 -m venv medibot
 ```
 
 ```bash
-conda activate medibot
+source medibot/bin/activate
 ```
 
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+GROQ_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
